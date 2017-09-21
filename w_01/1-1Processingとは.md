@@ -61,7 +61,7 @@ image from : [https://maedastudio.com/morisawa-10-2016/](https://maedastudio.com
 
 [Dextro.org](http://dextro.org)
 
-[Turux.org](http://turux.org/turux_alt/index.html)
+[Turux.org](http://turux.org/turux_alt/index.html) ([キャプチャー画像](./capture.md))
 
 ### 中村勇吾
 
