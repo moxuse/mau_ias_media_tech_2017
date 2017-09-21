@@ -59,7 +59,7 @@ image from : [https://maedastudio.com/morisawa-10-2016/](https://maedastudio.com
 オーストリアのWalter Gorgosilitsによるプロジェクト。Flashの前進であるMacromedia Director（Lingoという言語によりアニメーションを制作できるだけでなくサウンドも扱えた)によって平面のデザインだけではく、オーディオとグラフィックを合わせたダイナミックなデザインをweb上で体験できる形で公開していた。
 
 
-[Dextro.org](Dextro.org)
+[Dextro.org](http://dextro.org)
 
 [Turux.org](http://turux.org/turux_alt/index.html)
 
