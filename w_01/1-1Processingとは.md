@@ -116,21 +116,21 @@ Mike Bostockは
 
 [https://processing.org/exhibition/](https://processing.org/exhibition/) に多くの作例が
 
-##　その他よくクリエイティブコーディングに使われるライブラリー
+## その他よくクリエイティブコーディングに使われるライブラリー
 
-###　d3.js
+### d3.js
 
 Mike Bostock氏がメインコントリビューターのデータヴィジュアライゼーションのためのJavaScriptライブラリー。D3は(Data-Driven Documents)の意味。
 
 [https://d3js.org](https://d3js.org)
 	
-###　three.js
+### three.js
 
 Mr.Doob氏がメインで開発されている3D描画のためのJavaScriptライブラリー。今では最も人気のWebGLのためのライブラリーとなった。
 	
 [three.js](https://threejs.org)
 	
-###　openFrameworks
+### openFrameworks
 
 C++のクリエイティブコーディングのためのライブラリー。Processing同様様々なアート／デザインプロジェクトに使われている。
  
