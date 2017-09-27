@@ -4,9 +4,7 @@
 
 この講義では、Processingというプログラミングによってコンピュータグラフィックを行うためのソフトウエアを使って、簡単な図形から初め、コンピューターで映像表現を行うための基礎的な考え方を学びます。
 
-二週目以降は徐々に応用に触れ、プログラミングの作法なども同時に学んでいきます。最終的にはProessingを用いて、独自の映像表現を行えるようになることを目指します。
-
-
+二週目以降は徐々に応用に触れ、プログラミングの作法なども同時に学んでいきます。最終的にはProessingを用いて、自分の映像表現を行えるようになることを目指します。
 
 
 ## コンピュターによるグラフィック表現
@@ -14,6 +12,8 @@
 コンピューターの黎明期1952年ベン・F・ラポスキーがオシロスコープでブラウン管に曲線を描いたのが最初のグラフィック表現とされています。
 しかしその後のXYプロッターが登場して初めてコンピューターグラフィックの表現ができるようになりました。
 ドットマトリックスプリンターやインクジェットプリンター、液晶ディスプレイなど様々な表示装置がコンピューターの表示に使われ始めそれぞれの装置の制約が表現方法を規定してきた歴史でもあります。
+
+それぞれの時代にコンピューターによるグラフィック表現を牽引してきた先人達を紹介しましょう。
 
 ### 河野洋
 
@@ -71,7 +71,6 @@ image from : [https://maedastudio.com/morisawa-10-2016/](https://maedastudio.com
 
 Visual Complexity:
 
-
 [モリサワフォントパーク](http://fontpark.morisawa.co.jp/)　*要Flash Playerプラグイン
 
 [https://www.youtube.com/watch?v=I0HR7TeY5jo](https://www.youtube.com/watch?v=I0HR7TeY5jo)
@@ -86,6 +85,16 @@ Mike Bostockは
 [https://bost.ocks.org/mike/](https://bost.ocks.org/mike/)
 
 [Newyork Times 2016: The Year in Visual Stories and Graphics](https://www.nytimes.com/interactive/2016/12/28/us/year-in-interactive-graphics.html)
+
+### Processing in MV
+
+□□□（クチロロ）／あたらしいたましい feat. 金田朋子 :
+[https://youtu.be/ZwGpF9hOdSQ](https://youtu.be/ZwGpF9hOdSQ)
+
+Karma Fields - Skyline:
+[https://vimeo.com/139977231](https://vimeo.com/139977231)
+
+ここに挙げた方々は全体としてはわずかですので、文献に当たって是非歴史を掘り下げて見て欲しいです。
 
 ## Processingとは
 
@@ -135,10 +144,11 @@ C++のクリエイティブコーディングのためのライブラリー。Pr
  
  [http://openframeworks.cc/ja/](http://openframeworks.cc/ja/)
 
-
 ## 書籍
 
 - [Processing, Secwond Edition](https://mitpress.mit.edu/books/processing-0)
+
+- [Beautiful Visualization](http://shop.oreilly.com/product/0636920000617.do)
 
 - [Visualizing Data](http://shop.oreilly.com/product/9780596514556.do)
 

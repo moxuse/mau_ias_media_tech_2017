@@ -31,4 +31,3 @@
  - デジタルメディアと日本のグラフィックデザイン その過去と未来　誠文堂新光社 (2017/2/7) JAGDAインターネット委員会 (編集)
  - sfc_design16_examples SFC「デザインとプログラミング2016」コードサンプル [https://github.com/tado/sfc_design16_examples](https://github.com/tado/sfc_design16_examples) 
  
- 
