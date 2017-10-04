@@ -69,8 +69,6 @@ image from : [https://maedastudio.com/morisawa-10-2016/](https://maedastudio.com
 日本でインタラクションザインを広めた開発者yugop (現tha ltd.)Flashによるグラフイカルで洗練された作品を多数残す。2000年代のウェブサイト上のインフォメーションデザインを牽引した。
 
 
-Visual Complexity:
-
 [モリサワフォントパーク](http://fontpark.morisawa.co.jp/)　*要Flash Playerプラグイン
 
 [https://www.youtube.com/watch?v=I0HR7TeY5jo](https://www.youtube.com/watch?v=I0HR7TeY5jo)
