@@ -23,6 +23,7 @@ class Ball{
     
     if (y >= height) {
       yspeed *= -0.8;
+      y = height;
     }
     
     if (x < 0 || x > width) {
