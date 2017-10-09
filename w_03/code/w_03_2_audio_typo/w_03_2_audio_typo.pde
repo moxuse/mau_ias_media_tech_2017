@@ -1,16 +1,3 @@
-# 後期映像表現演習3-2
-
-## サウンドインタラクション
-
-オーディオの入出力ができたので、それをヴィジュアル表現に使って見ましょう。
-
-## サウンドタイポグラフィー
-
-![audio_typo.png](図版/audio_typo.png)
-
-### コード（全体）
-
-```
 import ddf.minim.*;
 
 Minim minim;
@@ -78,4 +65,3 @@ PVector getNormal(PVector currentPoint, PVector nextPoint) {
   PVector normalVec = vAB.cross(vAZ);
   return normalVec;
 }
-```
