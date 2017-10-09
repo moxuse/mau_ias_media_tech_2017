@@ -37,10 +37,9 @@ void draw() {
       image(buffer_r[i], 0 , i * IMAGE_HEIGHT);
     }
     
-    index_write++; 
-    if(index_write >= NUM_FRAMES-1){
+    index_write++;
+    if(index_write >= NUM_FRAMES - 1){
       index_write = 0;
     }
-    
   }       
 }

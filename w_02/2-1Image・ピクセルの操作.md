@@ -1,8 +1,11 @@
 # 後期映像表現演習2-1
 
+第一週目は主に座標を指定して図形を描くいわゆる所謂ベクターのグラフィックを扱ってきました。
+二週の今回は縦横にマス目状に敷き詰められたピクセル情報を扱ったグラフィックを扱って見ましょう。
+
 ## Image・ピクセルの操作
 
-画像を読み込んで表示させます。PImageというクラスを使ってラスターデータを操作していきます。
+画像を読み込んで表示させます。PImageというクラスを使ってピクセルデータを操作していきます。
 まずはskcketchフォルダと同じ階層にフォルダを新しく作り、'data'と名前をつけます。
 
 メニューの```スケッチ```>>```スケッチフォルダーを開く```
@@ -12,20 +15,20 @@
 ![scketch_in_finder.png](図版/scketch_in_finder.png)
 
 Processingのスケッチはこの名前のフォルダを基本にして、ローカルのファイルの読み込みなどを行います。
-画像のロードには```loadImage()```関数を使います。```setup()```内で行い起動時に用意します。
+画像のロードには```loadImage()```関数を使います。```setup()```内で起動時に用意します。
 
-引数に
+引数には今作った```data```フォルダからの相対パスの文字列を指定します。
 
 ```
 PImage photo;
 
 void setup() {
-  size(100, 100);
+  size(640, 480);
   photo = loadImage("myImage.jpg");
 }
 ```
 
-今度は```draw()```関数内で描画していきます。第1引数にPImageオブジェクト、第2、第３引数に画像のポジションをしてします。
+準備できたら```draw()```関数内で描画していきます。第1引数にPImageオブジェクト、第2、第３引数に画像のポジションを指定します。
 
 
 ```
@@ -44,12 +47,12 @@ void draw() {
 
 ```
 void draw() {
-  image(photo, 10, 20);
+  image(photo, 0, 0);
   
-  color target_color;
-  target_color = photo.get(mouseX,mouseY);
+  color targetColor;
+  target_color = photo.get(mouseX, mouseY);
 
-  fill(target_color);
+  fill(targetColor);
   rect(mouseX, mouseY, 20, 20);
 }
 ```
@@ -71,25 +74,41 @@ color[][] target_colors = new color[40][40]; // 40 x 40のカラーを格納す�
 ```
 
 
-```for```ループでピクセル情報を格納します。```target_colors[j][i] = photo.get(i * 3 + j, i);```のインデックスに注目してみましょう。
+
+
+```for```ループでピクセル情報を格納します。
+
+```
+  for (int i = 0; i< 40; i++) {
+    for (int j = 0; j< 40; j++) {
+      target_colors[j][i] = photo.get(j * scale_x, i * scale_y);
+    }
+  }
+```
+
+### カラーを取り出す
+
+では```draw```関数の中で格納したピクセルのカラー情報を使って見ましょう。
+格納した時と同じように、
 
 
 ![result_mosaic.png](図版/result_mosaic.png)
 
 ```
 PImage photo;
+int division = 40;
 
-color[][] target_colors = new color[40][40];
+color[][] target_colors = new color[division][division];
 
 void setup() {
   size(640, 480);
-  photo = loadImage("tape.jpg");
+  photo = loadImage("test.png");
   
-  int scale_x = photo.width / 40;
-  int scale_y = photo.height / 40;
+  int scale_x = photo.width / division;
+  int scale_y = photo.height / division;
   
-  for (int i = 0; i< 40; i++) {
-    for (int j = 0; j< 40; j++) {
+  for (int i = 0; i< division; i++) {
+    for (int j = 0; j< division; j++) {
       target_colors[j][i] = photo.get(j * scale_x, i * scale_y);
     }
   }
@@ -99,22 +118,24 @@ void draw() {
    fill(255);
    rect(0,0, width, height);
   
-   for (int i = 0; i < 40; i++) {
-     for (int j = 0; j< 40; j++) {
-       fill(target_colors[j][i]);
+   for (int i = 0; i < division; i++) {
+     for (int j = 0; j< division; j++) {
+       color col = target_colors[j][i];
+       fill(col);
        noStroke();
       
        pushMatrix();
-       rect(0, 0, 10, 10);
+       // scale(random(5), random(5));
+         rect(0, 0, 10, 10);
        popMatrix();
       
        translate(10, 0);
-       if (j == 39) {
-         translate(-400, 0);
+       if (j == division - 1) {
+         translate(-(10 * division), 0);
        }
      }
      translate(0, 10);
    }
-   image(photo, 10, 400 );  
 }
+
 ```
