@@ -1,7 +1,7 @@
 # 後期映像表現演習2-1
 
 第一週目は主に座標を指定して図形を描くいわゆる所謂ベクターのグラフィックを扱ってきました。
-二週の今回は縦横にマス目状に敷き詰められたピクセル情報を扱ったグラフィックを扱って見ましょう。
+二週目の今回は縦横にマス目状に敷き詰められたピクセル情報を扱ったグラフィックを扱って見ましょう。
 
 ## Image・ピクセルの操作
 
@@ -109,7 +109,7 @@ void setup() {
   
   for (int i = 0; i< division; i++) {
     for (int j = 0; j< division; j++) {
-      target_colors[j][i] = photo.get(j * scale_x, i * scale_y);
+      target_colors[i][j] = photo.get(j * scale_x, i * scale_y);
     }
   }
 }
@@ -120,7 +120,7 @@ void draw() {
   
    for (int i = 0; i < division; i++) {
      for (int j = 0; j< division; j++) {
-       color col = target_colors[j][i];
+       color col = target_colors[i][j];
        fill(col);
        noStroke();
       
