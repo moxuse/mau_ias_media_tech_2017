@@ -57,6 +57,7 @@ void draw() {
 }
 ```
 
+
 カラー情報からモザイクにしてみましょう。ピクセルを取得する座標を間引いてから、矩形の色に指定してタイル状に並べてみましょう。
 
 ### 二次元配列
@@ -119,7 +120,7 @@ void draw() {
    rect(0,0, width, height);
   
    for (int i = 0; i < division; i++) {
-     for (int j = 0; j< division; j++) {
+     for (int j = 0; j < division; j++) {
        color col = target_colors[i][j];
        fill(col);
        noStroke();

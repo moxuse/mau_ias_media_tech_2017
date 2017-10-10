@@ -10,8 +10,8 @@ void setup() {
   int scale_x = photo.width / division;
   int scale_y = photo.height / division;
   
-  for (int i = 0; i< division; i++) {
-    for (int j = 0; j< division; j++) {
+  for (int i = 0; i < division; i++) {
+    for (int j = 0; j < division; j++) {
       target_colors[i][j] = photo.get(j * scale_x, i * scale_y);
     }
   }
@@ -22,7 +22,7 @@ void draw() {
    rect(0,0, width, height);
   
    for (int i = 0; i < division; i++) {
-     for (int j = 0; j< division; j++) {
+     for (int j = 0; j < division; j++) {
        color col = target_colors[i][j];
        fill(col);
        noStroke();
