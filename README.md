@@ -16,6 +16,7 @@
  - 2 [ビテオの入力](https://github.com/moxuse/mau_ias_media_tech_2017/blob/master/w_02/2-2ビデオの入力.md)
  - 3 [ビテオエフェクト](https://github.com/moxuse/mau_ias_media_tech_2017/blob/master/w_02/2-3ビデオエフェクト.md)
  - 4 [ビテオのフレーム操作](https://github.com/moxuse/mau_ias_media_tech_2017/blob/master/w_02/2-4ビデオのフレーム操作.md)
+ - 捕捉 [Arrayについて]() 
 
 ## 第3週
 
