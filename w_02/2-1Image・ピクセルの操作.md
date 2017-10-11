@@ -33,7 +33,7 @@ void setup() {
 
 ```
 void draw() {
-  image(photo, 10, 20 );
+  image(photo, 10, 20);
 }
 ```
 
@@ -42,7 +42,7 @@ void draw() {
 
 ## ピクセル情報の取得
 
-```PImage```の```get()```関数で、画像データのピクセル情報を取得できます。座標を指定すると、RGカラー情報が帰ってきます。
+```PImage```の```get()```関数で、画像データのピクセル情報を取得できます。座標を指定すると、RGBカラー情報が帰ってきます。
 
 ![result_pick_color.png](図版/result_pick_color.png)
 
@@ -94,12 +94,6 @@ color[][] target_colors = new color[40][40]; // 40 x 40のカラーを格納す�
     }
   }
 ```
-
-### カラーを取り出す
-
-では```draw```関数の中で格納したピクセルのカラー情報を使って見ましょう。
-格納した時と同じように、
-
 
 ![result_mosaic.png](図版/result_mosaic.png)
 
