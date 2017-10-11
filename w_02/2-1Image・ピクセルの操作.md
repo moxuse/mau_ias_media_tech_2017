@@ -62,7 +62,10 @@ void draw() {
 
 ![pixel_1](図版/pixel_1.png)
 
-
+float red_ = blue(target_color);
+println(red_);
+  
+  
 カラー情報からモザイクにしてみましょう。ピクセルを取得する座標を間引いてから、矩形の色に指定してタイル状に並べてみましょう。
 
 ### 二次元配列
