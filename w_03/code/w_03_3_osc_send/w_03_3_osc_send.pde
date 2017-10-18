@@ -10,7 +10,7 @@ void setup() {
 
   oscP5 = new OscP5(this, 5000);
 
-  remoteServer = new NetAddress("127.0.0.1", 5001);
+  remoteServer = new NetAddress("127.0.0.1", 7400);
 }
 
 void draw() {
@@ -18,9 +18,11 @@ void draw() {
 }
 
 void mousePressed(){
-  OscMessage msg = new OscMessage("/freq");
+  OscMessage msg = new OscMessage("/max");
   
-  int freq = mouseX + 50; 
+  msg.add("/01");
+  
+  float freq = mouseX; 
   msg.add(freq);
   
   oscP5.send(msg, remoteServer);

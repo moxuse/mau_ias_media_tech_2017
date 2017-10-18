@@ -25,7 +25,6 @@ void oscEvent(OscMessage msg) {
   if(msg.checkAddrPattern("/max")) {
     String addr = msg.get(0).stringValue();
     float value = msg.get(1).floatValue();
-    
     if (addr.equals("/01")) {    
       if (1 <= value) {
         bang = true;
