@@ -23,7 +23,7 @@
  - 1 [オーディオの入力](https://github.com/moxuse/mau_ias_media_tech_2017/blob/master/w_03/3-1オーディオの入力.md)
  - 2 [サウンドインタラクション](https://github.com/moxuse/mau_ias_media_tech_2017/blob/master/w_03/3-2サウンドインタラクション.md)
  - 3 [OSC他のアプリケーションとの連携](https://github.com/moxuse/mau_ias_media_tech_2017/blob/master/w_03/3-3OSC他のアプリケーションとの連携.md)
- - 4 [ライブラリの使用](https://github.com/moxuse/mau_ias_media_tech_2017/blob/master/w_03/3-4ライブラリの使用.md)
+ - 4 [OSC他のアプリケーションとの連携2](https://github.com/moxuse/mau_ias_media_tech_2017/blob/master/w_03/3-4OSC他のアプリケーションとの連携2.md)
 
  
 ##  参考文献
