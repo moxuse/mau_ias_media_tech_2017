@@ -61,11 +61,11 @@ oscP5 = new OscP5(this, 5000);
 NetAddress remoteServer;
 // setup()内
 
-remoteServer = new NetAddress("127.0.0.1", 5001);
+remoteServer = new NetAddress("127.0.0.1", 7400);
 ```
 
 OscP5で指定した送受信するポートとは別のポートを指定します。ここを同じにしておくことはできません。
-今回は受信を5000番、送信先（Max側）を5001にしておきます。
+今回は受信を5000番、送信先（Max側）を7400にしておきます。
 
 ### oscMessage
 
@@ -122,7 +122,7 @@ void setup() {
 
   oscP5 = new OscP5(this, 5000);
 
-  remoteServer = new NetAddress("127.0.0.1", 5001);
+  remoteServer = new NetAddress("127.0.0.1", 7400);
 }
 
 void draw() {
