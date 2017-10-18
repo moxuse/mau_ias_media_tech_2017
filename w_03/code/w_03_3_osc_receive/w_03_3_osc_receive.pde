@@ -7,7 +7,7 @@ Boolean bang = false;
 
 void setup() {
   size(640, 480);
-  oscP5 = new OscP5(this,5000);
+  oscP5 = new OscP5(this, 5000);
 }
 
 void draw() {
