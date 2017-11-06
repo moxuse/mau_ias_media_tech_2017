@@ -25,7 +25,10 @@
  - 3 [OSC他のアプリケーションとの連携](https://github.com/moxuse/mau_ias_media_tech_2017/blob/master/w_03/3-3OSC他のアプリケーションとの連携.md)
  - 4 [OSC他のアプリケーションとの連携2](https://github.com/moxuse/mau_ias_media_tech_2017/blob/master/w_03/3-4OSC他のアプリケーションとの連携2.md)
 
- 
+## 第4週
+
+- 1 [発表にむけたTips](https://github.com/moxuse/mau_ias_media_tech_2017/blob/master/w_04/4-1発表にむけたTips.md)
+
 ##  参考文献
 
  - Generative Design-Processingで切り拓く、デザインの新たな地平 ビー・エヌ・エヌ新社 (2016/2/25)　Hartmut Bohnacker (著), Benedikt Gross (著), Julia Laub (著), 国分 宏樹 (監修), 深津 貴之 (監修)
