@@ -30,3 +30,7 @@ void draw() {
 ```
 
 
+## unityの衝突判定
+
+[https://docs.unity3d.com/ja/540/ScriptReference/Collider.OnCollisionEnter.html](https://docs.unity3d.com/ja/540/ScriptReference/Collider.OnCollisionEnter.html)
+
